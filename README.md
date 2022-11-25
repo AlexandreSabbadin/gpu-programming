@@ -1,5 +1,11 @@
 # GPU Programming
 
+This program aims to show the difference between a list of real galaxies coordinates and a random distributed one. For that we use **CUDA** parallel programming to increase the time effienciency of our method.
+
+We compute in parallel the angles between 2 pairs of galaxies (real-random, real-real or random-random).
+
+Results are written in a CSV file and then displayed with plots using a python script `plots.py`.
+
 ## Run GPU computation
 
 ```bash
